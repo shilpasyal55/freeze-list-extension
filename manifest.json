@@ -1,0 +1,15 @@
+{
+    "name": "Freeze List",
+    "version": "1.0",
+    "description": "This extension will create a todo list of all the blogs and websites you want to read later.You can mark the blog done after you read it",
+    "manifest_version": 2,
+    "incognito": "split",
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "activeTab",
+        "tabs"
+    ]
+}
